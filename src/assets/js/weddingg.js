@@ -1,6 +1,5 @@
 $(document).ready(function(){
 	var x=$(".header-img").height() + $("#countdownSection").height();
-	console.log(x);
 	$(".navbar").affix({
         offset: { 
            top: $(".header-img").outerHeight(true) + $("#countdownSection").outerHeight(true)

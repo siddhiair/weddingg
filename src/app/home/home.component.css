@@ -25,4 +25,16 @@
   #summarySection .sumCenter {
     padding: 30px 15px; }
 
+#whenwemetSection {
+  padding: 40px 0; }
+  #whenwemetSection p {
+    font-family: "Oxygen";
+    font-size: 15px;
+    color: #d5d5d5; }
+  @media only screen and (min-width: 768px) {
+    #whenwemetSection .wwm-groom-img {
+      padding-right: 0; }
+    #whenwemetSection .wwm-bride-img {
+      padding-left: 0; } }
+
 /*# sourceMappingURL=home.component.css.map */

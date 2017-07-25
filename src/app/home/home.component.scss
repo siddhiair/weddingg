@@ -34,3 +34,48 @@
 	}
 	
 }
+
+#whenwemetSection{
+	padding:70px 0;
+	background-color:#fffbf5;
+	position: relative;
+	.wwm-title-img{
+		@media only screen and (min-width:768px){
+			position: absolute;
+			z-index: 9;
+			width: 130px;
+			left: 0;
+			right: 0;
+			top: 0;
+			bottom:0;
+			margin:auto;
+		}
+	}
+	p{
+		font-family: $desc-font;
+		font-size: 16px;
+		color: #524d4d;
+		margin-top: 20px;
+		line-height: 1.5;
+		font-weight:300;
+		@media only screen and (min-width:992px){
+			margin-top: 50px;
+			padding-left:40px;
+			line-height: 1.6;
+		}
+	}
+	@media only screen and (min-width:768px){
+		.wwm-groom-img{
+			padding-right:0;
+			img{
+				width: 100%;
+			}
+		}
+		.wwm-bride-img{
+			padding-left:0;
+			img{
+				width: 100%;
+			}
+		}
+	}
+}
