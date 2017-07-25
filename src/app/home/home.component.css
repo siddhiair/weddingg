@@ -1,0 +1,28 @@
+#summarySection {
+  background: url("/assets/images/summary-bg.jpg") no-repeat center bottom;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  padding: 60px 0;
+  font-family: "Roboto Slab"; }
+  @media only screen and (max-width: 768px) {
+    #summarySection {
+      text-align: center; } }
+  @media only screen and (min-width: 1200px) {
+    #summarySection {
+      padding: 100px 0; } }
+  #summarySection h2 {
+    line-height: 0.9; }
+  #summarySection h4 {
+    color: #eaab67; }
+  @media only screen and (min-width: 768px) {
+    #summarySection .sumRight {
+      text-align: right; } }
+  @media only screen and (min-width: 768px) {
+    #summarySection .sumRight {
+      text-align: right; } }
+  #summarySection .sumCenter {
+    padding: 30px 15px; }
+
+/*# sourceMappingURL=home.component.css.map */

@@ -1,0 +1,11 @@
+.sectionHeading {
+  font-family: "Alex Brush", cursive;
+  font-size: 3em;
+  color: #eb7792;
+  text-align: center; }
+
+transition: all 5s ease-in;
+-webkit-transition: all 5s ease-in;
+-moz-transition: all 5s ease-in;
+-o-transition: all 5s ease-in;
+/*# sourceMappingURL=styles.css.map */

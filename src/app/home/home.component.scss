@@ -1,0 +1,36 @@
+@import '../../cssVariables.scss'; 
+#summarySection{
+	background:url('/assets/images/summary-bg.jpg') no-repeat center bottom;
+	background-size:cover;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	padding: 60px 0;
+	font-family:$heading-font;
+	@media only screen and (max-width:768px){
+		text-align: center
+	}
+	@media only screen and (min-width:1200px){
+		padding:100px 0;
+	}
+	h2{
+		line-height: 0.9;
+	}
+	h4{
+		color: #eaab67;
+	}
+	.sumRight{
+		@media only screen and (min-width:768px){
+			text-align: right;
+		}
+	}
+	.sumRight{
+		@media only screen and (min-width:768px){
+			text-align: right;
+		}
+	}
+	.sumCenter{
+		padding:30px 15px;
+	}
+	
+}

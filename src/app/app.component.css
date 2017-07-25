@@ -1,0 +1,8 @@
+.header-img{
+	background:url('/assets/images/header-img.jpg') no-repeat center;
+	height:100vh;
+	background-size:cover;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+}

@@ -1,0 +1,19 @@
+#countdownSection {
+  background-color: #ebf3ea;
+  font-family: "Roboto Slab"; }
+  #countdownSection h2 {
+    font-size: 1.6em;
+    color: #5e5e5e; }
+  #countdownSection h5 {
+    color: #138b87;
+    font-size: 3.3em; }
+  #countdownSection h6 {
+    color: #138b87;
+    font-size: 1em;
+    margin-bottom: 30px; }
+  @media only screen and (max-width: 767px) {
+    #countdownSection .cd-timer {
+      max-width: 360px;
+      margin: 0 auto; } }
+
+/*# sourceMappingURL=countdown.component.css.map */
